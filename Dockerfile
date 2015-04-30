@@ -1,6 +1,6 @@
-FROM ubuntu:15.04
+FROM schickling/latex
 
-RUN apt-get update && apt-get install -y pandoc make texlive
+RUN apt-get update && apt-get install -y pandoc make 
 
 RUN mkdir /source
 VOLUME ["/source"]
