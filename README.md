@@ -10,6 +10,8 @@ Additionnal package installed:
  * Pandoc
  * Make
  * Ms fonts (contrib repository enabled)
+ * Dia for diagram generation (can convert dia diagram to latex file)
+ * Gnumeric for spreadsheet convertion to latex longtable
 
 ## How-to use
 
