@@ -2,16 +2,15 @@ pandoc-latex-make-docker
 ======
 
 ## Description
-
-Based on [schickling/latex](https://github.com/schickling/dockerfiles/tree/master/latex).
-
-Additionnal package installed:
+Debian Jessie with texlive-full.
+Additionnal installed package:
 
  * Pandoc
  * Make
  * Ms fonts (contrib repository enabled)
  * Dia for diagram generation (can convert dia diagram to latex file)
  * Gnumeric for spreadsheet convertion to latex longtable
+ * Biber
 
 ## How-to use
 
